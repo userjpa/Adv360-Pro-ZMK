@@ -2,7 +2,9 @@ macro_macro_cedilha: macro_macro_cedilha{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_cedilha";
 #binding-cells = <0>;
-bindings = <&kp APOSTROPHE>, <&kp C>;
+bindings = <&macro_press &kp APOSTROPHE &kp C>
+  , <&macro_tap &kp C>
+  ;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
