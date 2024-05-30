@@ -1,4 +1,4 @@
-macro_macro_cedilha: macro_macro_cedilha{
+cmacro_macro_cedilha: macro_macro_cedilha{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_cedilha";
 #binding-cells = <0>;
